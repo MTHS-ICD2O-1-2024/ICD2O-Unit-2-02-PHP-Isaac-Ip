@@ -31,12 +31,8 @@
         <img src="./images/area_and_perimeter.png" alt="Area and Perimeter Calculations" />
       </div>
       <div class="page-content-php">
-        <?php echo '<p>The area is:</p>'; ?>
-        <?php echo '<p>The perimeter is:</p>'; ?>
-        <!-- Simple Textfield for integers-->
-        <form action="answer.php" method="GET">
-          <br />
-
+        <?php echo '<p>The area is: ' . (5 * 3) . ' cm² </p>'; ?>
+        <?php echo '<p>The perimeter is: ' . 2 * (5 + 3) . ' cm </p>'; ?>
       </div>
       <br />
     </main>
